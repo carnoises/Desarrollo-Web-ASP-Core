@@ -1,0 +1,39 @@
+﻿@page
+@model Practica_II.Pages.NominaModel
+
+<h1>Nomina</h1>
+<hr />
+
+
+<table border="1">
+    <tbody>        
+        <tr>
+            <td width="200">Sueldo Base</td>
+            <td>@Model.Sueldo.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>AFP</td>
+            <td>@Model.AFP.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>Seguro Salud</td>
+            <td>@Model.SFS.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>Impuesto ISR</td>
+            <td> @Model.ISR.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>Sueldo Neto</td>
+            <td> @Model.SueldoNeto.ToString("C")</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica I", "Desarrollo Web ASP Core\Practica I.csproj", "{F81D1AE2-F17E-4D02-B26A-CAB41822D0DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_II", "Practica_II\Practica_II.csproj", "{316D41C8-D9B0-40C1-A5A3-1F606C4FED17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica_II", "Practica_II\Practica_II.csproj", "{316D41C8-D9B0-40C1-A5A3-1F606C4FED17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

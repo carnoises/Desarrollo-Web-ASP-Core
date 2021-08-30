@@ -1,0 +1,24 @@
+﻿@page
+@model Practica_II.Pages.PruebasModel
+@{
+    string curso = "Asp.Net";
+    List<string> nombres = new List<string> 
+    { 
+        "Carlos",
+        "Jose",
+        "Karla",
+        "Miranda",
+        "Jairo"
+        
+    };
+
+}
+
+<h1>Welcome @curso</h1>
+<ul>
+   @foreach (var item in nombres)
+   {
+       <li>@item</li>
+   }
+</ul>
+
